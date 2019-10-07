@@ -24,5 +24,20 @@ namespace FanPage.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public ViewResult Sources()
+        {
+            return View();
+        }
+        [HttpGet]
+        public ViewResult Online()
+        {
+            return View();
+        }
+        [HttpGet]
+        public ViewResult Media()
+        {
+            return View();
+        }
     }
 }
