@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 
 namespace FanPage.Models
 {
-    public class UserStory
+    public class User
     {
+        private List<Story> stories = new List<Story>();
+
         public string Name { get; set; }
         public string Email { get; set; }
+        public List<Story> Stories { get { return stories; } }
     }
 }

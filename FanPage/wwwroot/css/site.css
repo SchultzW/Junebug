@@ -35,3 +35,8 @@ body {
         display: none;
     }
 }
+
+/*CSS for text box in stories*/
+.text-box{
+    border:1px solid black;
+}

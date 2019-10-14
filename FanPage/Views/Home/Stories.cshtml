@@ -1,37 +1,33 @@
-﻿
+﻿@model List<Story>
+
+
+
 @{
     Layout = null;
 }
+
+    
+
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Stories</title>
+    <link rel="stylesheet"href="~/css/site.css"/>
 </head>
 <body>
     <div>
-        <h1>Here we can all share our favorite stories about Junebug!</h1>
+        <h4>Feel free to read our fan stories about Junebug or <a asp-action="WriteStory">write one!</a></h4>
     </div>
-    <div>
-        <form>
-            <p>
-                <label>Name:</label>
-                <input type="text" name="nameIn"/>
-            </p>
-            <p>
-                <label>Email:</label>
-                <input type="text" name="emailIn" />
-            </p>
-            <p>
-                <label>Your Story:</label>
-                <textarea rows="6" cols="50">
-                </textarea>
-            </p>
-            <button type="submit">Submit </button>
-            
-        </form>
-    </div>
+ 
+    
+    @foreach (FanPage.Models.Story s in Model)
+    {
+        <div>Author: @s.Writer
+        <p class="text-box">@s.StoryText</p>
+        </div>
+    }
 </body>
 
 </html>
