@@ -16,7 +16,7 @@ namespace FanPage.Controllers
 
         public void StoryController()
         {
-            user.Name = "Junebug";
+            
             if (StoryRepo.Stories.Count == 0)
             {
                 story = new Story();
@@ -29,7 +29,7 @@ namespace FanPage.Controllers
         }
         public ViewResult Index()
         {
-            return View("index");
+            return View();
         }
         [HttpGet]
         public ViewResult History()
@@ -42,22 +42,6 @@ namespace FanPage.Controllers
             List<Story> stories = StoryRepo.Stories;
             return View(stories);
         }
-        /*
-        [HttpGet]
-        public ViewResult Sources()
-        {
-            return View();
-        }
-        [HttpGet]
-        public ViewResult Online()
-        {
-            return View();
-        }
-        [HttpGet]
-        public ViewResult Media()
-        {
-            return View();
-        }*/
         [HttpGet]
         public ViewResult WriteStory()
         {
