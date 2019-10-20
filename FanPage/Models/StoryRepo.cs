@@ -14,5 +14,11 @@ namespace FanPage.Models
         {
             stories.Add(story);
         }
+      
+        public static Story GetStoryByTitle(string title)
+        {
+            Story story = stories.Find(s => s.Title == title);
+            return story;
+        }
     }
 }

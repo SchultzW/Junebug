@@ -1,33 +1,44 @@
 ﻿@model List<Story>
 
 
-
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Header.cshtml";
+    ViewBag.Title = "Stories";
 }
 
-    
+<div>
+    <h4>Feel free to read our fan stories about Junebug or <a asp-action="WriteStory">write one!</a></h4>
+</div>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Stories</title>
-    <link rel="stylesheet"href="~/css/site.css"/>
-</head>
-<body>
-    <div>
-        <h4>Feel free to read our fan stories about Junebug or <a asp-action="WriteStory">write one!</a></h4>
-    </div>
- 
-    
-    @foreach (FanPage.Models.Story s in Model)
-    {
-        <div>Author: @s.Writer
-        <p class="text-box">@s.StoryText</p>
-        </div>
+@foreach (FanPage.Models.Story s in Model)
+{
+<div class="text-box">
+    <p>Title:@s.Title</p>
+    <p>Author: @s.Writer</p>
+    <p>Description: @s.Description</p>
+    @{ 
+        string url = "StoryPage" + "?title=" + s.Title;
     }
-</body>
+    <a href="@url">Read</a>
+  
+   
+    <!--<p>@s.StoryText</p>-->
+    @if (s.Comments.Count > 0)
+    {
+        @foreach (Comment c in s.Comments)
+        {
+            <p>@c.User</p>
+            <p>@c.CommentText</p>
+        }
+        int rate=0;
+        @foreach(int r in s.Rating)
+        {
+            rate += r;
+        }
+        rate=rate/s.Rating.Count;
+        <p>Rating:@rate</p>
+    }
+</div>
+}
 
-</html>

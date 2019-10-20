@@ -1,18 +1,17 @@
-﻿
+﻿@model List<Media>
+
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Header.cshtml";
+    ViewBag.Title = "Online Media";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Online</title>
-</head>
-<body>
-    <div>
-        Links to online media are under construction
-    </div>
-</body>
+<p>It's safe to say cats may rule the internet. It's impossible to not run into them online. Here are some of our favorites!</p>
 
-</html>
+@foreach (FanPage.Models.Media o in Model)
+{
+    <p>
+        <a href="@o.Url">@o.Title</a>
+        @o.Description
+    </p>
+}
+

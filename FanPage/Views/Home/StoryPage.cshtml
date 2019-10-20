@@ -1,0 +1,34 @@
+﻿@model String
+
+@{
+    ViewBag.Title = "Read a Story";
+    Layout = "~/Views/Shared/_Header.cshtml";
+    Story s = StoryRepo.GetStoryByTitle(Model);
+}
+
+
+
+
+    <div>
+        <p> Title:@s.Title;</p>
+        <p>Author: @s.Writer;</p>
+        <p>@s.StoryText;</p>
+    </div>
+    <form method="post">
+        <p>
+            <label for="commentText">Write a comment: </label>
+        </p>
+        <p>
+            <textarea name="commentText" rows="6" cols="50"></textarea>
+        </p>
+       <p>
+          <label for="User" name="user">Name: </label>
+          <input for="User" name="user"/>
+        </p>
+       <p>
+        <label for="rating">Rate the story: </label>
+        <input for="rating" name="rating"/> out of 5 
+       </p>
+        <button type="submit">Submit</button>
+    </form>
+

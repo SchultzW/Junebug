@@ -1,8 +1,6 @@
-﻿@model FanPage.Models.Story
-
-
-@{
-    Layout = null;
+﻿@{
+    Layout = "~/Views/Shared/_Header.cshtml";
+    ViewBag.Title = "Write a Story";
 }
 
 <h2>WriteStory</h2>
@@ -13,10 +11,20 @@
         <input for="writer" type="text" name="writer" />
     </p>
     <p>
-        
+        <label for="title">Title:</label>
+        <input for="title" type="text" name="title" />
+    </p>
+    <p>
+        <label for="description">Name:</label>
+        <input for="description" type="text" name="description" />
+    </p>
+    <p>
+
     </p>
     <p>
         <label for="storyText">Your Story:</label>
+    </p>
+    <p>
         <textarea name="storyText" rows="6" cols="50">
                 </textarea>
     </p>

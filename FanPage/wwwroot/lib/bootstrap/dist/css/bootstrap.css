@@ -6754,4 +6754,9 @@ button.close {
     display: none !important;
   }
 }
+
+.img{
+    width:106px;
+    height:160px;
+}
 /*# sourceMappingURL=bootstrap.css.map */

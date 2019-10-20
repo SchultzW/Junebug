@@ -1,18 +1,25 @@
-﻿
+﻿@model List<Media>
+
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Header.cshtml";
+    ViewBag.Title = "Books and Media";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Media</title>
-</head>
-<body>
-    <div>
-       Books and print media are under construction
-    </div>
-</body>
 
-</html>
+<p h3>
+    Junebug is a very prolifent writer. She has written over 100 books, most of which have won awards!
+    Have a look at her selected work below!
+</p>
+
+
+@foreach (FanPage.Models.Media m in Model)
+{
+    <p>
+        <img src="@m.ImagePath" alt="@m.Title">
+        <div>Title: @m.Title </div>
+        <div>Media Type: @m.Type</div>
+        <div>Description: @m.Description</div>
+    </p>
+}
+
+
