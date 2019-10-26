@@ -52,19 +52,19 @@ namespace FanPage.Controllers
             m.Title = "Dune";
             m.Auth = "Junebug";
             m.Type = "Book";
-            m.ImagePath = "C:/Users/wills/OneDrive/Desktop/School/Fall 2019/ASP.NET/Lab 1/FanPage/FanPage/wwwroot/images/dune.jpg";
+            m.ImagePath = "/images/dune.jpg";
             m.Description = "A mythic and emotionally charged hero's journey, Dune tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people.";
 
             m1.Title = "A Brief History of Time";
             m1.Auth = "Junebug";
             m1.Type = "Book";
-            m1.ImagePath = "~/images/time.jpg";
+            m1.ImagePath = "/images/time.jpg";
             m1.Description = "A Brief History of Time: From the Big Bang to Black Holes is a popular-science book on cosmology by physicist Junebug. It was first published in 1988. Junebug wrote the book for non-specialist readers with no prior knowledge of scientific theories";
 
             m2.Title = "Pet Sematary";
             m2.Auth = "Junebug";
             m2.Type = "Book";
-            m2.ImagePath = "~/images/StephenKingPetSematary.jpg";
+            m2.ImagePath = "/images/StephenKingPetSematary.jpg";
             m2.Description = "Doctor Louis Creed moves his family to Maine, where he meets a friendly local named Jud Crandall. After the Creeds' cat is accidentally killed, Crandall advises Louis to bury it in the ground near the old pet cemetery. The cat returns to life, its personality changed for the worse. When Louis' son, Gage, dies tragically, Louis decides to bury the boy's body in the same ground despite the warnings of Crandall and Louis' visions of a deceased patient.";
 
 

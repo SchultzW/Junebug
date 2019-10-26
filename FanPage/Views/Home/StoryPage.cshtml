@@ -9,26 +9,24 @@
 
 
 
-    <div>
-        <p> Title:@s.Title;</p>
-        <p>Author: @s.Writer;</p>
-        <p>@s.StoryText;</p>
+    <div class="story-form">
+        <p> Title:@s.Title</p>
+        <p>Author: @s.Writer</p>
+        <p>@s.StoryText</p>
     </div>
-    <form method="post">
-        <p>
+    <form class="story-form" method="post">
+        <div class="form-control">
             <label for="commentText">Write a comment: </label>
-        </p>
-        <p>
             <textarea name="commentText" rows="6" cols="50"></textarea>
-        </p>
-       <p>
-          <label for="User" name="user">Name: </label>
-          <input for="User" name="user"/>
-        </p>
-       <p>
-        <label for="rating">Rate the story: </label>
-        <input for="rating" name="rating"/> out of 5 
-       </p>
-        <button type="submit">Submit</button>
+        </div>
+        <div class="form-control">
+            <label for="User" name="user">Name: </label>
+            <input for="User" name="user" />
+        </div>
+        <div class="form-control">
+            <label for="rating">Rate the story: </label>
+            <input for="rating" name="rating" /> out of 5
+         </div>
+            <button class="btn" type="submit">Submit</button>
     </form>
 

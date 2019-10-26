@@ -14,12 +14,14 @@
 
 @foreach (FanPage.Models.Media m in Model)
 {
+<div class="text">
     <p>
-        <img src="@m.ImagePath" alt="@m.Title">
+        <img src="@m.ImagePath" alt="@m.Title" class="book-img">
         <div>Title: @m.Title </div>
         <div>Media Type: @m.Type</div>
         <div>Description: @m.Description</div>
     </p>
+</div>
 }
 
 

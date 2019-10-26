@@ -2,33 +2,33 @@
 
 
 @{
-    Layout = "~/Views/Shared/_Header.cshtml";
-    ViewBag.Title = "Stories";
+    Layout = "~/Views/Shared/_SearchHeader.cshtml";
+    ViewData["Title"] = "Stories";
 }
 
-<div>
+<div class="text-storiespage">
     <h4>Feel free to read our fan stories about Junebug or <a asp-action="WriteStory">write one!</a></h4>
 </div>
 
 
 @foreach (FanPage.Models.Story s in Model)
 {
-<div class="text-box">
+<div class="text-box text-storiespage">
     <p>Title:@s.Title</p>
     <p>Author: @s.Writer</p>
     <p>Description: @s.Description</p>
     @{ 
         string url = "StoryPage" + "?title=" + s.Title;
     }
-    <a href="@url">Read</a>
+    <a asp-action="StoryPage" asp-route-title="@s.Title">Read</a><!--If something breaks its because of this tag helper-->
   
    
     <!--<p>@s.StoryText</p>-->
     @if (s.Comments.Count > 0)
-    {
+    {<p>Comments:</p>
         @foreach (Comment c in s.Comments)
         {
-            <p>@c.User</p>
+            <p>User:@c.User</p>
             <p>@c.CommentText</p>
         }
         int rate=0;

@@ -5,13 +5,14 @@
     ViewBag.Title = "Online Media";
 }
 
-<p>It's safe to say cats may rule the internet. It's impossible to not run into them online. Here are some of our favorites!</p>
+<div class="text-storiespage">
+    <p>It's safe to say cats may rule the internet. It's impossible to not run into them online. Here are some of our favorites!</p>
 
-@foreach (FanPage.Models.Media o in Model)
-{
-    <p>
-        <a href="@o.Url">@o.Title</a>
-        @o.Description
-    </p>
-}
-
+    @foreach (FanPage.Models.Media o in Model)
+    {
+        <p>
+            <a href="@o.Url">@o.Title</a>
+            @o.Description
+        </p>
+    }
+</div>

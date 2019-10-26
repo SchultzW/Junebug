@@ -4,8 +4,8 @@ adding sorting capability to all pages that display lists of items
 
 1.Stories 
 	a.Add a view and controller methods to support adding comments to stories DONE
-	b.Use a lambda expression with List.Sort (or a comparable method) to sort the storiesby title.
-	c.Extra credit: Add the ability to rate a story and to display ratings.
+	b.Use a lambda expression with List.Sort (or a comparable method) to sort the storiesby title. DONE
+	c.Extra credit: Add the ability to rate a story and to display ratings. DONE
 
 	2.Book sand Print Media, Online Mediapages
 		a.If you haven’t finished implementing these pages so that they display the books/ mediawith links to more info, then do so. 

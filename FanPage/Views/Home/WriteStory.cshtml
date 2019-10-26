@@ -3,31 +3,27 @@
     ViewBag.Title = "Write a Story";
 }
 
-<h2>WriteStory</h2>
-<p>Here you can share your own Junebug fan-fic or fan-fact!</p>
-<form method="post">
-    <p>
+<h2 class="story-form">WriteStory</h2>
+<p class="story-form">Here you can share your own Junebug fan-fic or fan-fact!</p>
+<form class="story-form" method="post">
+    <div class="form-control">
         <label for="writer">Name:</label>
         <input for="writer" type="text" name="writer" />
-    </p>
-    <p>
+    </div>
+   
+    <div class="form-control">
         <label for="title">Title:</label>
         <input for="title" type="text" name="title" />
-    </p>
-    <p>
+    </div>
+    <div class="form-control">
         <label for="description">Name:</label>
         <input for="description" type="text" name="description" />
-    </p>
-    <p>
-
-    </p>
-    <p>
+    </div>
+    <div class="form-control">
         <label for="storyText">Your Story:</label>
-    </p>
-    <p>
         <textarea name="storyText" rows="6" cols="50">
                 </textarea>
-    </p>
-    <button type="submit">Submit </button>
+    </div>
+    <button class="btn "type="submit">Submit </button>
 </form>
 

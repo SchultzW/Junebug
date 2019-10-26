@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/main.css" />
+    
+</head>
+<body>
+    <div class="navbar">
+        <a asp-controller="Home" asp-action="index">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Stories
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a asp-controller="Home" asp-action="Stories">Read a Story</a>
+                <a asp-controller="Home" asp-action="WriteStory">Write a Story</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Media
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a asp-controller="Sources" asp-action="Media">Books</a>
+                <a asp-controller="Sources" asp-action="Online">Links</a>
+            </div>          
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Search by Title: 
+            </button>
+            <input type="text" name="search" placeholder="Search..."/>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
