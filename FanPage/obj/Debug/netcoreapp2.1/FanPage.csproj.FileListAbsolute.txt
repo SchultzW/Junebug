@@ -1,0 +1,80 @@
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.deps.json
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.runtimeconfig.json
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.runtimeconfig.dev.json
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.dll
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.csprojAssemblyReference.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.csproj.CoreCompileInputs.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorAssemblyInfo.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorAssemblyInfo.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.AssemblyInfoInputs.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.AssemblyInfo.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.TagHelpers.input.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.TagHelpers.output.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorCoreGenerate.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorTargetAssemblyInfo.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorTargetAssemblyInfo.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.Views.dll
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.Views.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.Views.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.dll
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.csproj.CopyComplete
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\Stories.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Sources\Media.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Sources\Online.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Sources\Sources.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\WriteStory.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Header.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\StoryPage.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\Lab 1\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SearchHeader.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.deps.json
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.runtimeconfig.json
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.runtimeconfig.dev.json
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.dll
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.Views.dll
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\bin\Debug\netcoreapp2.1\FanPage.Views.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.csprojAssemblyReference.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.csproj.CoreCompileInputs.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorAssemblyInfo.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorAssemblyInfo.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.AssemblyInfoInputs.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.AssemblyInfo.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.TagHelpers.input.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.TagHelpers.output.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorCoreGenerate.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\History.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\Stories.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\StoryPage.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\WriteStory.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Header.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SearchHeader.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Sources\Media.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Sources\Online.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Sources\Sources.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorTargetAssemblyInfo.cache
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.RazorTargetAssemblyInfo.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.Views.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.dll
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.pdb
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\FanPage.csproj.CopyComplete
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\Test.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\Time.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\Page.g.cshtml.cs
+C:\Users\wills\OneDrive\Desktop\School\Fall 2019\ASP .NET\labs\FanPage\FanPage\obj\Debug\netcoreapp2.1\Razor\Views\Home\file.g.cshtml.cs

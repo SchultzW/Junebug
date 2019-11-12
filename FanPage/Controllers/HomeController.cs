@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using FanPage.Models;
 using System.Web;
+using System.IO;
 
 namespace FanPage.Controllers
 {
@@ -113,6 +114,43 @@ namespace FanPage.Controllers
             s.Rating.Add(rating);
             return RedirectToAction("Stories");
         }
+        /// <summary>
+        /// test page
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public ActionResult Content()
+        {
 
+            return Content("<h1>I am content<h1>");
+        }
+        [HttpPost]
+        public DateTime Time()
+        {
+            return DateTime.Now;
+        }
+        [HttpGet]
+        public ViewResult Test()
+        {
+            return View();
+        }
+        public RedirectResult Page()
+        {
+
+
+            return Redirect("https://www.google.com/");
+        }
+        public JsonResult File()
+        {
+            var test =new Story {Title="test",
+                        Description="test",
+                        StoryText="test"};
+
+
+
+            return Json(test);
+        }
+
+            
     }
 }

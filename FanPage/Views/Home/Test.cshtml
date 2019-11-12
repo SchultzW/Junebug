@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Test";
+    Layout = "~/Views/Shared/_Header.cshtml";
+}
+
+<h2>Test</h2>
+
+<p>I use content action and return type to write something</p>
+
+<form typeof="input" asp-action="content">
+    <button>For content</button>
+</form>
+
+<p>I use datetime to create show what time it is right now</p>
+
+<form typeof="input" asp-action="Time">
+    <button>For Date</button>
+</form>
+
+<p>I redirect you to google</p>
+<form typeof="input" asp-action="page">
+    <button>redirect</button>
+</form>
+
+<p>I return a JSON object </p>
+<form typeof="input" asp-action="file">
+    <button>JSON</button>
+</form>
