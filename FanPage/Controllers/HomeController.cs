@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using FanPage.Models;
 using System.Web;
+using System.IO;
+using FanPage.Repos;
 
 namespace FanPage.Controllers
 {
@@ -14,13 +16,15 @@ namespace FanPage.Controllers
         Story story;
         User user = new User();
         Story sView;
-      
+        IStoryRepo sRepo;
+        ICommentRepo cRepo;
 
 
-        public void StoryController()
+        public HomeController(IStoryRepo r)
         {
+            sRepo = r;
             
-            if (StoryRepo.Stories.Count == 0)
+            if (sRepo.Stories.Count == 0)
             {
                 story = new Story();
                 {
@@ -28,7 +32,7 @@ namespace FanPage.Controllers
                     story.Title = "I am Junebug";
                     story.Description = "Junebug's life";
                     story.StoryText = "I am Junebug and I like to sleep on chairs and take the entire couch. I also love to eat your left over yogurt!";
-                    StoryRepo.AddStory(story);
+                    sRepo.AddStory(story);
                 }
             }
         }
@@ -44,8 +48,8 @@ namespace FanPage.Controllers
         [HttpGet]
         public ViewResult Stories()
         {
-            StoryController();
-            List<Story> stories = StoryRepo.Stories;
+            //StoryController();
+            List<Story> stories = sRepo.Stories;
             stories.Sort((s1, s2) => (s1.Title.CompareTo(s2.Title)));
             return View(stories);
         }
@@ -72,7 +76,7 @@ namespace FanPage.Controllers
         */
         public ViewResult ListStory()
         {
-            return View(StoryRepo.Stories);
+            return View(sRepo.Stories);
         }
       
         [HttpPost]
@@ -88,7 +92,7 @@ namespace FanPage.Controllers
             //story.Comments.Add(comment);
             //story.Rating.Add(review);
             
-            StoryRepo.AddStory(story);
+            sRepo.AddStory(story);
             return RedirectToAction("Stories");
         }
         
@@ -100,12 +104,14 @@ namespace FanPage.Controllers
         //tyring this
         public IActionResult StoryPage(string title)
         {
-            return View("StoryPage", HttpUtility.HtmlAttributeEncode(title));
+            Story s = sRepo.GetStoryByTitle(title);
+
+            return View("StoryPage",s);
         }
         [HttpPost]
         public RedirectToActionResult StoryPage(string title,string user, string commentText, int rating)
         {
-            Story s = StoryRepo.GetStoryByTitle(title);
+            Story s = sRepo.GetStoryByTitle(title);
             Comment c = new Comment();
             c.CommentText = commentText;
             c.User = user;
@@ -113,6 +119,12 @@ namespace FanPage.Controllers
             s.Rating.Add(rating);
             return RedirectToAction("Stories");
         }
+        /// <summary>
+        /// test page
+        /// </summary>
+        /// <returns></returns>
+       
 
+            
     }
 }

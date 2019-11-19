@@ -1,18 +1,19 @@
-﻿@model String
+﻿@model Story
 
 @{
+    //StoryRepo storyRepo;
     ViewBag.Title = "Read a Story";
     Layout = "~/Views/Shared/_Header.cshtml";
-    Story s = StoryRepo.GetStoryByTitle(Model);
+    //Story s = storyRepo.GetStoryByTitle(Model);
 }
 
 
 
 
     <div class="story-form">
-        <p> Title:@s.Title</p>
-        <p>Author: @s.Writer</p>
-        <p>@s.StoryText</p>
+        <p> Title:@Model.Title</p>
+        <p>Author: @Model.Writer</p>
+        <p>@Model.StoryText</p>
     </div>
     <form class="story-form" method="post">
         <div class="form-control">

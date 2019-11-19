@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 
 namespace FanPage.Models
 {
-    public static class StoryRepo
+    public class StoryRepo:IStoryRepo
     {
-        private static List<Story> stories = new List<Story>();
-        public static List<Story> Stories { get { return stories; } }
+        private  List<Story> stories = new List<Story>();
+        public   List<Story> Stories { get { return stories; } }
         
-        public static void AddStory(Story story)
+        public void AddStory(Story story)
         {
             stories.Add(story);
         }
       
-        public static Story GetStoryByTitle(string title)
+        public Story GetStoryByTitle(string title)
         {
             Story story = stories.Find(s => s.Title == title);
             return story;
