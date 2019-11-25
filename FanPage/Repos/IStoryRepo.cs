@@ -15,7 +15,9 @@ namespace FanPage.Models
 
        Story GetStoryByTitle(string title);
 
-        
-        
+        void AddTestData();
+
+
+
     }
 }

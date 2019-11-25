@@ -36,6 +36,7 @@ namespace FanPageTest
             var controller = new HomeController(storyRepo);
             var s = new Story();
             s.Title = "Test Title";
+            storyRepo.AddStory(s);
             //act
             controller.StoryPage("Test Title", "Test User", "Test Comment", 5);
             //assert
@@ -54,7 +55,7 @@ namespace FanPageTest
             controller.Stories();
 
             //assert
-            Assert.Equal("Why can't I sleep in the box?", storyRepo.Stories[2].Title);
+            Assert.Equal("What happened to my yogurt?", storyRepo.Stories[3].Title);
         }
 
     }

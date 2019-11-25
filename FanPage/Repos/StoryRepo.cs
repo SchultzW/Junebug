@@ -7,7 +7,7 @@ namespace FanPage.Models
 {
     public class StoryRepo:IStoryRepo
     {
-        private  List<Story> stories = new List<Story>();
+        static private  List<Story> stories = new List<Story>();
         public   List<Story> Stories { get { return stories; } }
         
         public void AddStory(Story story)
@@ -19,6 +19,11 @@ namespace FanPage.Models
         {
             Story story = stories.Find(s => s.Title == title);
             return story;
+        }
+
+        public void AddTestData()
+        {
+            
         }
     }
 }

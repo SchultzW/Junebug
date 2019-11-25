@@ -3,3 +3,5 @@
 look into media objects on w3 schools for neat fourm styling
 
 to return data go return('nameOfView',and some sosrt of data (string)) then on the view page use @model string and you can pull it out?
+
+

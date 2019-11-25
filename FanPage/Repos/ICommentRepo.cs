@@ -12,8 +12,11 @@ namespace FanPage.Repos
         List<Comment> Comments { get; }
 
         void AddStory(Comment comment);
+
         
-           
-        
+
+
+
+
     }
 }

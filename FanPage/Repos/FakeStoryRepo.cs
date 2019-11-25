@@ -36,13 +36,14 @@ namespace FanPage.Models
             story.Title = "My box";
             story.Description = "Why can't I sleep in the box?";
             story.StoryText = "Everynight the humans I adopted put me outside so I have to go back to my real home. But I just want to sleep in my box.";
+            stories.Add(story);
 
             story = new Story();
             story.Writer = "Will";
             story.Title = "What happened to my yogurt?";
             story.Description = "Mystery of missing yogurt";
             story.StoryText = "I was eating yogurt and got up from the table for one minute when I came back it was gone...";
-
+            stories.Add(story);
         }
     }
 }
