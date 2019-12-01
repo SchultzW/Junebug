@@ -4,4 +4,7 @@ look into media objects on w3 schools for neat fourm styling
 
 to return data go return('nameOfView',and some sosrt of data (string)) then on the view page use @model string and you can pull it out?
 
+////11/28/////
+need to create a model and db model for rating in order for them to work :(
+
 

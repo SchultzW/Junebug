@@ -23,18 +23,7 @@ namespace FanPage.Controllers
         public HomeController(IStoryRepo r)
         {
             sRepo = r;
-            
-            if (sRepo.Stories.Count == 0)
-            {
-                story = new Story();
-                {
-                    story.Writer = "Junebug";
-                    story.Title = "I am Junebug";
-                    story.Description = "Junebug's life";
-                    story.StoryText = "I am Junebug and I like to sleep on chairs and take the entire couch. I also love to eat your left over yogurt!";
-                    sRepo.AddStory(story);
-                }
-            }
+        
         }
         public ViewResult Index()
         {
@@ -116,7 +105,10 @@ namespace FanPage.Controllers
             c.CommentText = commentText;
             c.User = user;
             s.Comments.Add(c);
-            s.Rating.Add(rating);
+            sRepo.AddComment(s, c);
+            sRepo.AddRating(rating,s);
+            
+            
             return RedirectToAction("Stories");
         }
         /// <summary>

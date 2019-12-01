@@ -8,7 +8,7 @@ namespace FanPage.Models
     public class User
     {
         private List<Story> stories = new List<Story>();
-
+        public int UserId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public List<Story> Stories { get { return stories; } }

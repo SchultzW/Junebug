@@ -15,13 +15,14 @@ namespace FanPage.Models
         {
             stories.Add(story);
         }
-
+      
         public Story GetStoryByTitle(string title)
         {
             Story story = stories.Find(s => s.Title == title);
             return story;
         }
-       public void AddTestData()
+       
+        public void AddTestData()
         {
             Story story = new Story();
             story.Writer = "Junebug";
@@ -44,6 +45,21 @@ namespace FanPage.Models
             story.Description = "Mystery of missing yogurt";
             story.StoryText = "I was eating yogurt and got up from the table for one minute when I came back it was gone...";
             stories.Add(story);
+        }
+
+        public void addComment(Story s, Comment c)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddComment(Story s, Comment c)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddRating(int r, Story s)
+        {
+            throw new NotImplementedException();
         }
     }
 }

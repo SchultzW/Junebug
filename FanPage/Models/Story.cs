@@ -10,6 +10,7 @@ namespace FanPage.Models
         private List<int> ratings = new List<int>();
         private List<Comment> comments = new List<Comment>();
 
+        public int StoryID { get; set; }
         public string StoryText { get; set; }
         //public User Writer { get; set; }
         public string Writer { get; set; }

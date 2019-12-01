@@ -16,8 +16,7 @@ namespace FanPage.Models
        Story GetStoryByTitle(string title);
 
         void AddTestData();
-
-
-
+        void AddComment(Story s, Comment c);
+        void AddRating(int r, Story s);
     }
 }
